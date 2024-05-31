@@ -1,0 +1,43 @@
+May 15 16:18:03.704 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 15 16:18:03.705 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52758.
+May 15 16:18:03.727 HYPERVISOR: exec_cmd: hypervisor version 
+May 15 16:18:03.727 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula05\BGP1\project-files\dynamips 
+May 15 16:18:03.735 GENERAL: working_dir=C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula05\BGP1\project-files\dynamips
+May 15 16:18:03.735 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula05\BGP1\project-files\dynamips\ad242f38-94ad-4af6-abaf-5123a2616d26 
+May 15 16:18:03.739 GENERAL: working_dir=C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula05\BGP1\project-files\dynamips\ad242f38-94ad-4af6-abaf-5123a2616d26
+May 15 16:18:03.740 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+May 15 16:18:03.740 VM: VM R1 created.
+May 15 16:18:03.740 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+May 15 16:18:03.740 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+May 15 16:18:03.740 HYPERVISOR: exec_cmd: vm get_status R1 
+May 15 16:18:03.740 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm get_status R1 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x601712a8 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm get_status R1 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm slot_remove_binding R1 0 0 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm get_status R1 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-2FE 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm get_status R1 
+May 15 16:18:03.746 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+May 15 16:18:03.816 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:18:07.934 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:18:09.254 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:20:41.183 HYPERVISOR: exec_cmd: nio create_udp udp-8d072f8e-8e30-45a8-9d6f-0c114cad6ad2 2002 127.0.0.1 2003 
+May 15 16:20:41.504 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-8d072f8e-8e30-45a8-9d6f-0c114cad6ad2 
+May 15 16:20:41.504 HYPERVISOR: exec_cmd: vm get_status R1 
+May 15 16:20:52.863 HYPERVISOR: exec_cmd: nio create_udp udp-81aade0b-3dd3-47b3-b3a0-48948ce5c629 2016 127.0.0.1 2017 
+May 15 16:20:52.879 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-81aade0b-3dd3-47b3-b3a0-48948ce5c629 
+May 15 16:20:52.879 HYPERVISOR: exec_cmd: vm get_status R1 
+May 15 16:22:35.335 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:22:36.099 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:22:55.718 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+May 15 16:22:55.720 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula05\BGP1\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+May 15 16:22:55.720 HYPERVISOR: exec_cmd: vm get_status R1 
+May 15 16:22:55.721 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+May 15 16:22:55.721 HYPERVISOR: exec_cmd: vm start R1 
+May 15 16:23:26.137 HYPERVISOR: exec_cmd: vm extract_config R1 

@@ -1,0 +1,13 @@
+ESW1:
+root : This bridge is the root for vlan 1
+VLAN1 - blocking: 0; listening: 0; forwarding: 2; STP: 2
+
+EWS2:
+root : port FastEthernet 1/0
+root bridge for: none
+VLAN1 - blocking: 0; listening: 0; forwarding: 2; STP: 2
+
+EWS3:
+root : port FastEthernet 1/0
+root bridge for: none
+VLAN1 - blocking: 1; listening: 0; forwarding: 1; STP: 2

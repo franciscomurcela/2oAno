@@ -1,0 +1,16 @@
+Mar 27 16:09:32.771 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 27 16:09:32.771 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63159.
+Mar 27 16:09:33.264 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 27 16:09:33.264 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula03\aula03\project-files\dynamips 
+Mar 27 16:09:33.264 GENERAL: working_dir=C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula03\aula03\project-files\dynamips
+Mar 27 16:09:33.264 HYPERVISOR: exec_cmd: ethsw create netA 
+Mar 27 16:09:38.100 HYPERVISOR: exec_cmd: nio create_udp udp-f8ca01ad-d440-4ea4-b549-ef629f5563b3 2031 127.0.0.1 2030 
+Mar 27 16:09:38.100 HYPERVISOR: exec_cmd: ethsw add_nio netA udp-f8ca01ad-d440-4ea4-b549-ef629f5563b3 
+Mar 27 16:09:38.117 HYPERVISOR: exec_cmd: ethsw set_access_port netA udp-f8ca01ad-d440-4ea4-b549-ef629f5563b3 1 
+Mar 27 16:09:38.158 HYPERVISOR: exec_cmd: nio create_udp udp-9f4136d6-b66b-464e-be4e-e9a72632de3a 2035 127.0.0.1 2034 
+Mar 27 16:09:38.158 HYPERVISOR: exec_cmd: ethsw add_nio netA udp-9f4136d6-b66b-464e-be4e-e9a72632de3a 
+Mar 27 16:09:38.174 HYPERVISOR: exec_cmd: ethsw set_access_port netA udp-9f4136d6-b66b-464e-be4e-e9a72632de3a 1 
+Mar 27 16:10:13.361 HYPERVISOR: exec_cmd: ethsw delete netA 
+Mar 27 16:10:13.394 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 27 16:10:13.811 HYPERVISOR: Stopped.
+Mar 27 16:10:13.811 GENERAL: reset done.

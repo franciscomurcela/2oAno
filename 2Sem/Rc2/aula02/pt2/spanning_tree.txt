@@ -1,0 +1,47 @@
+ESW1: 
+bridge id - 32768
+mac address - c201.0b94.0000
+f1/0 - c201.0b94.0000
+port id - 128.41
+cost - 0
+prio - 128
+FWD
+f1/1 - c201.0b94.0000
+port id - 128.42
+cost - 0
+prio - 128
+FWD
+
+EWS2:
+bridge id - 32768
+mac address - c202.3aa4.0000
+f1/0 c201.0b94.0000
+port id - 128.41
+cost - 0
+prio 128
+FWD
+f1/1 c202.3aa4.0000
+port id - 128.42
+cost - 19
+prio - 128
+FWD
+
+EWS3:
+bridge id - 32768
+mac address - c203.1574.0000
+f1/0 - c201.0b94.0000
+port id - 128.41
+cost - 0
+FWD
+f1/1 - c202.3aa4.0000
+port id - 128.42
+cost - 19
+prio - 128
+BLK
+
+
+
+
+ESW1 ROOT 
+EWS3 f1/1 blocked
+EWS2 f1/1 no connection

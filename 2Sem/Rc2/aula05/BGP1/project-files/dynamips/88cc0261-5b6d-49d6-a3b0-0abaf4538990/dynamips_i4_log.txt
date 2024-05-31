@@ -1,0 +1,47 @@
+May 15 16:18:21.803 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 15 16:18:21.803 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52799.
+May 15 16:18:22.290 HYPERVISOR: exec_cmd: hypervisor version 
+May 15 16:18:22.290 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula05\BGP1\project-files\dynamips 
+May 15 16:18:22.290 GENERAL: working_dir=C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula05\BGP1\project-files\dynamips
+May 15 16:18:22.290 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula05\BGP1\project-files\dynamips\88cc0261-5b6d-49d6-a3b0-0abaf4538990 
+May 15 16:18:22.302 GENERAL: working_dir=C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula05\BGP1\project-files\dynamips\88cc0261-5b6d-49d6-a3b0-0abaf4538990
+May 15 16:18:22.302 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+May 15 16:18:22.304 VM: VM R4 created.
+May 15 16:18:22.304 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+May 15 16:18:22.304 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+May 15 16:18:22.304 HYPERVISOR: exec_cmd: vm get_status R4 
+May 15 16:18:22.304 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+May 15 16:18:22.304 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:18:22.304 HYPERVISOR: exec_cmd: vm get_status R4 
+May 15 16:18:22.304 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x601712a8 
+May 15 16:18:22.304 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+May 15 16:18:22.304 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+May 15 16:18:22.311 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+May 15 16:18:22.311 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+May 15 16:18:22.311 HYPERVISOR: exec_cmd: vm get_status R4 
+May 15 16:18:22.311 HYPERVISOR: exec_cmd: vm slot_remove_binding R4 0 0 
+May 15 16:18:22.311 HYPERVISOR: exec_cmd: vm get_status R4 
+May 15 16:18:22.311 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-2FE 
+May 15 16:18:22.311 HYPERVISOR: exec_cmd: vm get_status R4 
+May 15 16:18:22.311 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-2FE-TX 
+May 15 16:18:22.380 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:18:55.312 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:20:50.218 HYPERVISOR: exec_cmd: nio create_udp udp-ea6170cd-51f2-4ad7-95c0-aca768e5e2eb 2012 127.0.0.1 2013 
+May 15 16:20:50.477 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-ea6170cd-51f2-4ad7-95c0-aca768e5e2eb 
+May 15 16:20:50.481 HYPERVISOR: exec_cmd: vm get_status R4 
+May 15 16:21:00.927 HYPERVISOR: exec_cmd: nio create_udp udp-e8ff0521-b6f4-46c9-8801-168a5039596a 2026 127.0.0.1 2027 
+May 15 16:21:00.937 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-e8ff0521-b6f4-46c9-8801-168a5039596a 
+May 15 16:21:00.939 HYPERVISOR: exec_cmd: vm get_status R4 
+May 15 16:21:03.831 HYPERVISOR: exec_cmd: nio create_udp udp-32643bc5-8b72-4d5a-bb2b-27cf21796b33 2030 127.0.0.1 2031 
+May 15 16:21:03.836 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-32643bc5-8b72-4d5a-bb2b-27cf21796b33 
+May 15 16:21:03.837 HYPERVISOR: exec_cmd: vm get_status R4 
+May 15 16:22:17.910 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:22:17.910 HYPERVISOR: exec_cmd: vm rename R4 Router2B 
+May 15 16:22:17.980 HYPERVISOR: exec_cmd: vm set_ios Router2B C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:22:30.736 HYPERVISOR: exec_cmd: vm set_ios Router2B C:/Users/Asus/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+May 15 16:22:56.114 HYPERVISOR: exec_cmd: vm set_ghost_status Router2B 2 
+May 15 16:22:56.115 HYPERVISOR: exec_cmd: vm set_ghost_file Router2B C:\Users\Asus\Documents\Disciplinas\2Ano\2o\Rc2\aula05\BGP1\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+May 15 16:22:56.115 HYPERVISOR: exec_cmd: vm get_status Router2B 
+May 15 16:22:56.116 HYPERVISOR: exec_cmd: vm set_config Router2B configs\i4_startup-config.cfg 
+May 15 16:22:56.116 HYPERVISOR: exec_cmd: vm start Router2B 
+May 15 16:23:26.431 HYPERVISOR: exec_cmd: vm extract_config Router2B 

@@ -1,0 +1,57 @@
+Implementação do hashCode() para String:
+
+@Override
+public int hashCode() {
+    return Objects.hash(this.strProperty);
+}
+
+
+
+Implementação do hashCode() para Integer:
+
+@Override
+public int hashCode() {
+    return Objects.hash(this.intValue);
+}
+
+
+
+Implementação do hashCode() para Double:
+
+@Override
+public int hashCode() {
+    long bits = Double.doubleToLongBits(this.doubleValue);
+    return (int) (bits ^ (bits >>> 32));
+}
+
+
+
+Implementação do hashCode() para arrays de inteiros:
+
+@Override
+public int hashCode() {
+    return Arrays.hashCode(this.intArray);
+}
+
+
+
+Implementação do hashCode() para uma classe personalizada MyClass (usando propriedades relevantes):
+
+@Override
+public int hashCode() {
+    return Objects.hash(this.property1, this.property2);
+}
+
+
+public int hashCode() {
+int h = 0; 
+for( E el : this ) 
+if ( el != null ) h += el.hashCode(); 
+return h; 
+}
+
+
+Lembre-se de que esses são apenas exemplos e você deve adaptar a implementação do método hashCode() de acordo com as propriedades relevantes da sua classe ou objeto. É importante garantir que a implementação do hashCode() esteja de acordo com a implementação do método equals() para correta manipulação de igualdade e armazenamento em coleções como o HashSet.
+
+
+
